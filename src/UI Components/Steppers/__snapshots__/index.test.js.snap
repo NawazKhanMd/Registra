@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stepper Loads 1`] = `
+<div
+  className="stepper_container"
+>
+  <div
+    className="stepper"
+  >
+    <ul
+      className="nav"
+    >
+      <li
+        className="completed"
+        onClick={[Function]}
+      >
+        <a
+          className="cursor-pointer"
+        >
+          <span
+            className="round-tab"
+          >
+            1
+          </span>
+          <span
+            className="tab_title"
+          >
+            Personal Info
+          </span>
+        </a>
+      </li>
+      <li
+        className="active"
+        onClick={[Function]}
+      >
+        <a
+          className="cursor-pointer"
+        >
+          <span
+            className="round-tab"
+          >
+            2
+          </span>
+          <span
+            className="tab_title"
+          >
+            Office Details
+          </span>
+        </a>
+      </li>
+      <li
+        className="disabled"
+        onClick={[Function]}
+      >
+        <a
+          className="cursor-pointer"
+        >
+          <span
+            className="round-tab"
+          >
+            3
+          </span>
+          <span
+            className="tab_title"
+          >
+            Confirmation
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

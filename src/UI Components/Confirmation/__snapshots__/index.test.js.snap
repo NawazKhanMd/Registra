@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation Loads 1`] = `
+<div
+  className="confirm_container"
+>
+  <div
+    className="neo_card"
+  >
+    <div
+      className="d-flex f_row justify-content-evenly f-wrap"
+    >
+      <div
+        className="image_container"
+      >
+        <input
+          className="d-none"
+          onChange={[Function]}
+          type="file"
+        />
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/action-states-vol-4-flat/48/Action___States_-_Vol._4-10-512.png"
+        />
+        <h3
+          className="img_btn"
+        >
+          <span
+            onClick={[Function]}
+          >
+            📂
+          </span>
+          <span
+            onClick={[Function]}
+          >
+            📷
+          </span>
+        </h3>
+      </div>
+      <div
+        className="segment seperator"
+      >
+        <p>
+          <span>
+            Name:
+          </span>
+           
+        </p>
+        <p>
+          <span>
+            Phn Number:
+          </span>
+           
+        </p>
+        <p>
+          <span>
+            Email:
+          </span>
+           
+        </p>
+        <p
+          className="margin0"
+        >
+          <span>
+            Address:
+          </span>
+          <span
+            className="text-right"
+          >
+             
+            , 
+          </span>
+        </p>
+        <p
+          className="justify-content-end"
+        />
+      </div>
+    </div>
+    <div
+      className="segment"
+    >
+      <p>
+        <span>
+          Building Name:
+        </span>
+         
+      </p>
+      <p>
+        <span>
+          City/Area:
+        </span>
+         
+      </p>
+      <p>
+        <span>
+          Landline:
+        </span>
+         
+      </p>
+      <p
+        className="margin0"
+      >
+        <span>
+          Address:
+        </span>
+        <span
+          className="text-right"
+        >
+           
+          , 
+        </span>
+      </p>
+      <p
+        className="justify-content-end"
+      />
+    </div>
+  </div>
+  <div
+    className="neo_card margin_t_20"
+  >
+    <canvas
+      height="160"
+      id="sig-canvas"
+      width="620"
+    >
+      Your browser does not Suppport this feature
+    </canvas>
+    <div
+      className="d-flex f-cloumn justify-content-center"
+    >
+      <div
+        className="col-md-12"
+      >
+        <small>
+          Sign in the canvas and save your signature!
+        </small>
+      </div>
+      <div
+        className="col-md-12 d-flex f-cloumn align-items-center"
+      >
+        <button
+          className="red margin-10"
+          id="sig-submitBtn"
+        >
+          Save Signature
+        </button>
+        <button
+          className="grey margin-10"
+          id="sig-clearBtn"
+        >
+          Clear Signature
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-flex f_row justify-content-center margin-10"
+  >
+    <button
+      className="grey  margin-10"
+      onClick={[Function]}
+    >
+      Back
+    </button>
+    <button
+      className="red  margin-10"
+      onClick={[Function]}
+      type="submit"
+    >
+      Confirm
+    </button>
+  </div>
+</div>
+`;

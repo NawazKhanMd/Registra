@@ -1,0 +1,15 @@
+export const actions = {
+    loading: 'loading',
+    stage: 'stage',
+    clear_store: 'clear_store',
+    save_user_data: 'save_user_data',
+    profile_picture: 'profile_picture',
+    user_sign: 'user_sign',
+    save_office_data: 'save_office_data',
+    save_user_data_api: 'save_user_data_api',
+    save_office_data_api: 'save_office_data_api',
+    save_office_data_success: 'save_office_data_success',
+    save_office_data_failure: 'save_office_data_failure',
+    save_user_data_success: 'save_user_data_success',
+    save_user_data_failure: 'save_user_data_failure',
+} 

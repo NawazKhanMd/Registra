@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Reducer Handles Signature save  1`] = `
+Object {
+  "officeData": Object {
+    "building_add_1": "",
+    "building_add_2": "",
+    "building_add_3": "",
+    "building_name": "",
+    "city_area": "",
+    "landline_number": "",
+  },
+  "profilePicture": "",
+  "userInfo": Object {
+    "usr_add_1": "",
+    "usr_add_2": "",
+    "usr_add_3": "",
+    "usr_email": "",
+    "usr_name": "",
+    "usr_phn": "",
+  },
+  "userSignature": "user_signature",
+}
+`;
+
+exports[`Home Reducer Handles clear Store  1`] = `
+Object {
+  "officeData": Object {
+    "building_add_1": "",
+    "building_add_2": "",
+    "building_add_3": "",
+    "building_name": "",
+    "city_area": "",
+    "landline_number": "",
+  },
+  "profilePicture": "",
+  "userInfo": Object {
+    "usr_add_1": "",
+    "usr_add_2": "",
+    "usr_add_3": "",
+    "usr_email": "",
+    "usr_name": "",
+    "usr_phn": "",
+  },
+  "userSignature": "",
+}
+`;
+
+exports[`Home Reducer Handles load Office Info  1`] = `
+Object {
+  "officeData": Object {
+    "building_add_1": "Mukti",
+    "building_add_2": "Malleshwaram",
+    "building_add_3": "IN, 560003",
+    "building_name": "Mukti",
+    "city_area": "Malleshwaram",
+    "landline_number": "0802345225",
+  },
+  "profilePicture": "",
+  "userInfo": Object {
+    "usr_add_1": "",
+    "usr_add_2": "",
+    "usr_add_3": "",
+    "usr_email": "",
+    "usr_name": "",
+    "usr_phn": "",
+  },
+  "userSignature": "",
+}
+`;
+
+exports[`Home Reducer Handles load User Info  1`] = `
+Object {
+  "officeData": Object {
+    "building_add_1": "",
+    "building_add_2": "",
+    "building_add_3": "",
+    "building_name": "",
+    "city_area": "",
+    "landline_number": "",
+  },
+  "profilePicture": "",
+  "userInfo": Object {
+    "usr_add_1": "Mukti",
+    "usr_add_2": "Malleshwaram",
+    "usr_add_3": "IN, 560003",
+    "usr_email": "nawazmd230@gmail.com",
+    "usr_name": "Md Nawaz Khan",
+    "usr_phn": "9121223331",
+  },
+  "userSignature": "",
+}
+`;
+
+exports[`Home Reducer Handles profile picture save  1`] = `
+Object {
+  "officeData": Object {
+    "building_add_1": "",
+    "building_add_2": "",
+    "building_add_3": "",
+    "building_name": "",
+    "city_area": "",
+    "landline_number": "",
+  },
+  "profilePicture": "Profile_picture",
+  "userInfo": Object {
+    "usr_add_1": "",
+    "usr_add_2": "",
+    "usr_add_3": "",
+    "usr_email": "",
+    "usr_name": "",
+    "usr_phn": "",
+  },
+  "userSignature": "",
+}
+`;
+
+exports[`Home Reducer Handles stage update  1`] = `
+Object {
+  "loading": false,
+  "stage": 1,
+}
+`;

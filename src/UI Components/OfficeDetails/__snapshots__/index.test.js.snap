@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stepper Loads 1`] = `
+<div
+  className="registration_container"
+>
+  <form
+    autoComplete="off"
+    name="OfficeForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="segment"
+    >
+      <h3>
+        Office Info
+      </h3>
+    </div>
+    <div
+      className="d-flex f_row justify-content-evenly f-wrap"
+    >
+      <label>
+        <input
+          name="building_name"
+          placeholder="Building Name"
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          maxLength="10"
+          name="landline_number"
+          placeholder="Landline Number"
+          required={true}
+          size="10"
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          name="city_area"
+          placeholder="City/Area"
+          required={true}
+          type="text"
+        />
+      </label>
+    </div>
+    <div
+      className="segment"
+    >
+      <h3>
+        Office Address
+      </h3>
+    </div>
+    <div
+      className="d-flex f_row justify-content-evenly f-wrap"
+    >
+      <label>
+        <input
+          name="building_add_1"
+          placeholder="Street, Colony"
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          name="building_add_2"
+          placeholder="City, Country"
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          name="building_add_3"
+          placeholder="PO Box Number"
+          required={true}
+          type="text"
+        />
+      </label>
+    </div>
+    <div
+      className="d-flex f_row justify-content-center"
+    >
+      <button
+        className="grey  margin-10"
+        onClick={[Function]}
+      >
+        Back
+      </button>
+      <button
+        className="red margin-10"
+        type="submit"
+      >
+        Next
+      </button>
+    </div>
+  </form>
+</div>
+`;

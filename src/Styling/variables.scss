@@ -1,0 +1,38 @@
+
+//
+// Bootstrap modules
+//
+
+
+$primary_background:#00A0AE;
+$secondary_background:#F2F2F2;
+$primary_red_background:rgb(255,49,90);
+
+
+$primary_text_clr:rgb(105,113,114);
+$selected_text_clr:rgb(55,149,176);
+
+$blue:#2699FB;
+$orange:#FF565E;
+$white:rgb(255,255,255);
+$black:#000000;
+
+$grey:#aaafb1;
+$light_grey:#dfe1e2;
+$light_orange:#fdbcb4;
+$bright_green : #3ED598;
+$light_green : #286053;
+
+
+$ruler: 16px;
+$color-red: #AE1100;
+$color-bg: #EBECF0;
+$color-grey: #414247;
+$color-shadow: #BABECC;
+$color-white: #FFF;
+
+
+@function pixelX5($multiple: 1) {
+    @return $multiple * 5px;
+  }
+

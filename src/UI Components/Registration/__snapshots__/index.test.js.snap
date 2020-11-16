@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stepper Loads 1`] = `
+<div
+  className="registration_container"
+>
+  <form
+    autoComplete="off"
+    name="RegistrationForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="segment"
+    >
+      <h3>
+        Basic Info
+      </h3>
+    </div>
+    <div
+      className="d-flex f_row justify-content-evenly f-wrap"
+    >
+      <label>
+        <input
+          name="usr_name"
+          placeholder="Full Name"
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          name="usr_email"
+          placeholder="Email Address"
+          required={true}
+          type="email"
+        />
+      </label>
+      <label>
+        <input
+          maxLength="10"
+          minLength="10"
+          name="usr_phn"
+          placeholder="Phone Number"
+          required={true}
+          size="10"
+          type="text"
+        />
+      </label>
+    </div>
+    <div
+      className="segment"
+    >
+      <h3>
+        Address
+      </h3>
+    </div>
+    <div
+      className="d-flex f_row justify-content-evenly f-wrap"
+    >
+      <label>
+        <input
+          name="usr_add_1"
+          placeholder="House Number, Street"
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          name="usr_add_2"
+          placeholder="Colony, City"
+          required={true}
+          type="text"
+        />
+      </label>
+      <label>
+        <input
+          name="usr_add_3"
+          placeholder="Country, Pincode"
+          required={true}
+          type="text"
+        />
+      </label>
+    </div>
+    <div
+      className="d-flex f_row justify-content-center"
+    >
+      <button
+        className="red"
+        type="submit"
+      >
+        Next
+      </button>
+    </div>
+  </form>
+</div>
+`;

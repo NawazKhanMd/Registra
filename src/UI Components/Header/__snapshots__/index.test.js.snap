@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Loads 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="display-flex align-items-center"
+  >
+    <span
+      className="main-link"
+    >
+      Personal Info
+    </span>
+  </div>
+  <div
+    className="actions"
+  >
+    <span
+      className="sub-link"
+    >
+      User
+    </span>
+    Hey
+  </div>
+</div>
+`;
